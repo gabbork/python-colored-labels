@@ -1,4 +1,4 @@
-def labeller(tags_qs, html=True):
+def labeler(tags_qs, html=True):
     """ tags_qs: queryset of labels;
         label objects need a 'name' and 'color' attribute
         html: True if you want a <span> style output
